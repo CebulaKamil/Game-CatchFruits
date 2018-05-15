@@ -1,0 +1,104 @@
+body {
+    height: 100vh;
+    background: radial-gradient(circle, #fff, #ccc);
+    padding-top: 5vh;
+}
+
+.container-main-content {
+    background-color: #9dd2ea;
+    min-height: 90vh;
+    border-radius: 3vh;
+    box-shadow: 0px 4px 0px 0px  black;
+    text-align: center;
+    padding: 5vh;
+}
+
+.heart {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.live {
+    background-color: red;
+    background-color: #f1ff92;
+    color: #888e5f;
+    min-height: 5vh;
+    text-align: center;
+    min-width: 15vh;
+    padding: 2vh;
+    margin-bottom: 2vh;
+}
+
+/* ---------- Fruits main area ---------- */
+#fruits-container {
+    position: relative;
+    background-color: white;
+    padding: 5vh;
+    margin-bottom: 2vh;
+    min-height: 50vh;
+    overflow: hidden;
+}
+
+#fruit {
+    display: none;
+    position: absolute;
+}
+
+.sentence {
+    background-color: #b481d9;
+    padding: 2vh;
+    margin-bottom: 2vh;
+}
+
+.button {
+    margin: 10px;
+}
+
+.modal-game-over {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(black, 0.7);
+    z-index: 1;
+    display: none;
+}
+
+.game-over-alert {
+    background-color: aqua;
+    font-size: 2rem;
+    text-align: center;
+    width: 100vh;
+    height: 50vh;
+    color: white;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-top: 20vh;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#time {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .container-main-content {
+        margin-top: 0;
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .answer {
+        width: 50%;
+    }
+
+    .col-4xx {
+        width: 100vh;
+        background-color: red;
+        color: red;
+    }
+}
