@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title>Fruit Game</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
     <main class="container container-main-content">
@@ -29,18 +29,18 @@
             <div class="row justify-content-center">
                     <div class="col-8 sentence">Catch Fruits</div>
             </div>
-            <div class="row row-battons justify-content-center">
-                <button class="btn col-lg-3 justify-content-center button" id="start-game">Start Game</button>
+            <div class="row justify-content-center row-battons">
+                <button class="justify-content-center btn button col-lg-3" id="start-game">Start Game</button>
             </div>
         </div>
     </main>
     <div class="modal-game-over" id="modal-game-over">
         <div class="container">
             <div class="row justify-content-center">
-                <div class=" game-over-alert">
-                    Game Over <br />
+                <div class="game-over-alert">
+                    Game Over <br>
                     Your score is:
-                    <br />
+                    <br>
                     <span id="score-game-over-value"></span> 
                 </div>
             </div>
